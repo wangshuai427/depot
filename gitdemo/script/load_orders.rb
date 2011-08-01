@@ -4,3 +4,5 @@ Order.transaction do
        :email=>"customer-#{i}@example.com",:pay_type=>"Check")
   end
 end
+
+#循环创建订单
