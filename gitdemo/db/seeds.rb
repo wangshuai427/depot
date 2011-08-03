@@ -5,10 +5,3 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
-Product.delete_all
-Product.create(:title=>'Programming Ruby 1.9',
-     :description=>
-	       %{<p>
-		     Ruby is the fastestgrowing and most exciting dynamic language out there.</p>},
-     :image_url=>'/images/ruby.jpg',
-	 :price=>49.50)
